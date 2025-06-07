@@ -42,3 +42,4 @@ What I Learned:
 Through this project, I learned how to build structured learning pages, implement browser-based data storage, and create interactive learning components with JavaScript. It taught me how to think like a user and create a functional learning flow from start to finish. More importantly, it gave me confidence in building real-world frontend applications that serve a clear purpose.
 
 out-put:
+![Image](https://github.com/user-attachments/assets/ceeebc69-ced7-49f5-8edd-a83b5d0674e0)
