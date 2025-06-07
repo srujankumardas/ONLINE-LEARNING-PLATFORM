@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Courses - E-learning</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="coursescript.js" defer></script>
+</head>
+<body>
+    <!-- navigation -->
+    <div class="navigation">
+        <div class="nav">
+            <div class="nav__logo">
+                <img src="./images/logo.png" alt="logo" >
+            </div>
+            <ul class="nav__ul">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="course.html" class="nav__link">Course</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                <button class="nav__btn">Sign up</button>
+            </ul>
+        </div>
+    </div>
+
+
+ <!--________________________ progress section____________________ -->
+  <section class="video__lesson">
+  <div class="video__content">
+    <h2 class="video__title">Lesson 1: HTML Web Development</h2>
+    <p class="video__description">
+      In this lesson you will learn about the basics of HTML, the fundamental language for creating web pages. You will explore HTML structure, common tags, and how to build a simple web page from scratch.
+    </p>
+    <video controls width="600">
+      <source src="images/course.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <button id="markWatchedBtn" class="video__btn">Mark as Watched</button>
+    <p id="videoStatus" style="font-weight:bold;"></p>
+  </div>
+</section>
+
+  <!--________________________ /progress section____________________ -->
+
+ <!-- Quiz Section -->
+<section class="quiz__section">
+  <h2 class="quiz__title">Quiz: HTML Basics</h2>
+  <form id="quizForm">
+    <p class="quiz__question">What does HTML stand for?</p>
+
+    <label>
+      <input type="radio" name="answer" value="a" />  
+      Hyper Text Markup Language
+    </label><br />
+
+    <label>
+      <input type="radio" name="answer" value="b" />
+      Home Tool Markup Language
+    </label><br />
+
+    <label>
+      <input type="radio" name="answer" value="c" />
+      Hyperlinks and Text Markup Language
+    </label><br />
+
+    <button type="submit" class="quiz__btn">Submit</button>
+  </form>
+
+  <p id="quizResult" class="quiz__result"></p>
+
+<!-- _______________________/quiz section_____________________ -->
+
+    
